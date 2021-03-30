@@ -3,6 +3,14 @@
     <description>Add content using any file type or an external URL.</description>
     <developerName>cms_document</developerName>
     <managedContentNodeTypes>
+        <helpText>Links a thumbnail image to the content.</helpText>
+        <isLocalizable>false</isLocalizable>
+        <isRequired>false</isRequired>
+        <nodeLabel>Link to Thumbnail</nodeLabel>
+        <nodeName>thumbUrl</nodeName>
+        <nodeType>URL</nodeType>
+    </managedContentNodeTypes>
+    <managedContentNodeTypes>
         <helpText>Enter the file name.</helpText>
         <isLocalizable>true</isLocalizable>
         <isRequired>true</isRequired>
@@ -25,14 +33,6 @@
         <nodeLabel>Source</nodeLabel>
         <nodeName>source</nodeName>
         <nodeType>MEDIA</nodeType>
-    </managedContentNodeTypes>
-    <managedContentNodeTypes>
-        <helpText>Links a thumbnail image to the content.</helpText>
-        <isLocalizable>false</isLocalizable>
-        <isRequired>false</isRequired>
-        <nodeLabel>Link to Thumbnail</nodeLabel>
-        <nodeName>thumbUrl</nodeName>
-        <nodeType>URL</nodeType>
     </managedContentNodeTypes>
     <masterLabel>Document</masterLabel>
 </ManagedContentType>
